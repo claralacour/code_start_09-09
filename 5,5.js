@@ -20,6 +20,7 @@ for (let i = 10; i >= 1; i--) {
 };
 
 //opg 5
+console.log('opgave 5');
 let i = 0;
 while (i < 6) {
     console.log(i);
@@ -27,9 +28,45 @@ while (i < 6) {
 };
 
 //opg 6
-let ii = 2;
+console.log('opgave 6');
+let ii = 1;
 while (ii < 11) {
     ii++;
     if (ii % 2 == 0)
         console.log(ii)
+};
+
+//opg 7
+console.log('opgave 7');
+
+let alphabet = 65;
+
+while (alphabet < 71) {
+    console.log((String.fromCharCode(alphabet)))
+    alphabet++;
+};
+
+//opg 8
+console.log('opgave 8');
+
+let oli = 11;
+while (oli >= 1) {
+    oli--;
+    console.log(oli)
+};
+
+//opg 9
+console.log('opgave 9');
+
+let numbis = [66, 33, 88, 99, 11];
+for(let numbisse of numbis){
+    console.log(numbisse);
+}
+
+//opg 10
+console.log('opgave 10');
+
+let streng = 'Hejsa';
+for(let letter of streng) {
+    console.log(letter)
 };
